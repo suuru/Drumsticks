@@ -1,3 +1,5 @@
+//TASK 1
+
 async function async1() {
     console.log("async1 start");
     async2().then(() => {
@@ -76,3 +78,4 @@ setImmediate(() => {
 });
 
 console.log("script end");
+
